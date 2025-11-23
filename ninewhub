@@ -1,0 +1,10 @@
+-- Fly script by ninewhub, speed can be adjusted
+
+-- Configuration
+local speed = 2 -- Change this value to adjust the fly speed
+
+-- Variables
+local flying = false
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local player = game.Players.LocalPlayer
